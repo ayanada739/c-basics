@@ -139,6 +139,37 @@ static void Main()
         #endregion
 
 
+        #region Null Propagation Operator ?
+
+        //int[] Numbers = default; // Null
+        //Null Reference Exception
+
+        // for (int i = 0;(Numbers != null) && ( i < Numbers.Length); i++)
+        //for (int i = 0; i < Numbers?.Length; i++);
+
+        //if (Numbers != null)
+        //{
+        //for (int i = 0; i < Numbers.Length; i++)
+        //     Console.WriteLine(Numbers[i]);
+        //}
+        //  
+
+
+        //Numbers !=null
+        // i< Numbers.length
+
+
+        //Numbers?.Length
+        //Numbers = null -->> (Numbers.Length)=>null
+        //Numbers != null -->> (Numbers?.Length)=>Length
+
+
+
+
+        #endregion
+
+
+
 
     }
 
