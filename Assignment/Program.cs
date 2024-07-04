@@ -138,23 +138,47 @@
             #region 06 Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
 
 
-            static void Main()
-            {
-                int[] numbers = { 3, 5, 7, 2, 8 };
-                MinMaxArray(numbers, out int min, out int max);
-                Console.WriteLine($"Minimum: {min}, Maximum: {max}");
-            }
+            //static void Main()
+            //{
+            //    int[] numbers = { 3, 5, 7, 2, 8 };
+            //    MinMaxArray(numbers, out int min, out int max);
+            //    Console.WriteLine($"Minimum: {min}, Maximum: {max}");
+            //}
 
-            static void MinMaxArray(int[] array, out int min, out int max)
-            {
-                min = array[0];
-                max = array[0];
-                foreach (int num in array)
-                {
-                    if (num < min) min = num;
-                    if (num > max) max = num;
-                }
-            }
+            //static void MinMaxArray(int[] array, out int min, out int max)
+            //{
+            //    min = array[0];
+            //    max = array[0];
+            //    foreach (int num in array)
+            //    {
+            //        if (num < min) min = num;
+            //        if (num > max) max = num;
+            //    }
+            //}
+            #endregion
+
+            #region 07 Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+
+            //static void Main()
+            //{
+            //    Console.Write("Enter a number: ");
+            //    int number = int.Parse(Console.ReadLine());
+            //    int result = Factorial(number);
+            //    Console.WriteLine($"Factorial of {number} is: {result}");
+            //}
+
+            //static int Factorial(int num)
+            //{
+            //    int result = 1;
+            //    for (int i = 2; i <= num; i++)
+            //    {
+            //        result *= i;
+            //    }
+            //    return result;
+            //}
+
+
+
             #endregion
 
 
