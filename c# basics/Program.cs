@@ -5,27 +5,7 @@ namespace Assignment
     internal class Program
     {
 
-        static void SWAP( ref int x , ref int y)
-        {
-          int Temp = x;
-          x = y;
-          y = Temp;
-
-        }
-
-        static int SumArray(int[] Arr) //Arr = Numbers
-        {
-            int Sum = 0;
-            if(Arr is not null)
-            {
-                Arr[0] = 100;
-                for (int i = 0; i < Arr.Length; i++)
-                    Sum += Arr[i];
-                
-            }
-            return Sum;
-
-        }
+        
 
 
         static void Main(string[] args)
