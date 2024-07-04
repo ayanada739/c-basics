@@ -2,9 +2,71 @@
 
 class program()
 {
-
-static void Main()
+    static void SWAP(ref int x, ref int y)
     {
+        int Temp = x;
+        x = y;
+        y = Temp;
+
+    }
+
+    static int SumArray(int[] Arr) //Arr = Numbers
+    {
+        int Sum = 0;
+        if (Arr is not null)
+        {
+            Arr[0] = 100;
+            for (int i = 0; i < Arr.Length; i++)
+                Sum += Arr[i];
+
+        }
+        return Sum;
+
+
+    }
+        static void Main()
+    {
+        #region Functions
+
+
+        #region Passing Parameters
+
+        #region Passing Value Type Parameters
+        //int , Double , Char
+        //int a = 10;
+        //int b = 20;
+
+        //Console.WriteLine($"A = {a}");
+        //Console.WriteLine($"B = {b}");
+        //SWAP(ref a,ref b); // By Ref
+        //Console.WriteLine("Swap");
+        //Console.WriteLine($"A = {a}");
+        //Console.WriteLine($"B = {b}");
+
+
+
+
+
+
+
+
+        #endregion
+
+        #region Reference Type Parameters
+
+        //int[] Numbers = null;
+        //// Numbers --> Reference[Address Of Array]
+        //int Result = SumArray(Numbers); // By Value
+        //Console.WriteLine(Result); //105
+        ////Console.WriteLine(Numbers[0]);
+
+        #endregion
+
+
+
+        #endregion
+        #endregion
+
         #region Casting [Boxing - UnBoxing]
         // Boxing => Casting From Value Type To Reference Type
         // Unboxing => Casting From Reference Type To Value Type
