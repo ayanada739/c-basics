@@ -182,6 +182,34 @@
             #endregion
 
 
+            #region 08 Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
+
+            //static void Main()
+            //{
+            //    Console.Write("Enter a string: ");
+            //    string str = Console.ReadLine();
+            //    Console.Write("Enter the position to change (0-based): ");
+            //    int position = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter the new character: ");
+            //    char newChar = Console.ReadKey().KeyChar;
+
+            //    string modifiedString = ChangeChar(str, position, newChar);
+            //    Console.WriteLine($"\nModified string: {modifiedString}");
+            //}
+
+            //static string ChangeChar(string str, int position, char newChar)
+            //{
+            //    if (position < 0 || position >= str.Length)
+            //    {
+            //        throw new ArgumentOutOfRangeException(nameof(position), "Position is out of range.");
+            //    }
+
+            //    char[] charArray = str.ToCharArray();
+            //    charArray[position] = newChar;
+            //    return new string(charArray);
+            //}
+            #endregion
+
 
 
 
