@@ -114,6 +114,28 @@
 
             #endregion
 
+            #region 05 Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+            //static void Main()
+            //{
+            //    Console.Write("Enter a number: ");
+            //    int number = int.Parse(Console.ReadLine());
+            //    bool isPrime = IsPrime(number);
+            //    Console.WriteLine($"{number} is prime: {isPrime}");
+            //}
+
+            //static bool IsPrime(int num)
+            //{
+            //    if (num <= 1) return false;
+            //    for (int i = 2; i <= Math.Sqrt(num); i++)
+            //    {
+            //        if (num % i == 0) return false;
+            //    }
+            //    return true;
+            //}
+            #endregion
+
+
 
 
 
