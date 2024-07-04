@@ -181,7 +181,6 @@
 
             #endregion
 
-
             #region 08 Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
             //static void Main()
