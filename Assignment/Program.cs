@@ -33,11 +33,51 @@
             //        x = 30;
 
             //    }
-                #endregion
+            #endregion
+
+
+            #region 02 Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
+
+            //Passing by Value: When a reference type parameter is passed by value, the reference (pointer) to the object is copied. The function can modify the object, but not the reference itself.
+
+            //Passing by Reference: When a reference type parameter is passed by reference, the reference to the reference(pointer to the pointer) is passed.The function can modify both the object and the reference.
+
+            //Example:
+            //static void Main()
+            //{
+            //    MyClass obj = new MyClass { Value = 10 };
+            //    Console.WriteLine($"Initial value of obj.Value: {obj.Value}");
+            //    PassByValue(obj);
+            //    Console.WriteLine($"Value of obj.Value after PassByValue: {obj.Value}");
+            //    PassByReference(ref obj);
+            //    Console.WriteLine($"Value of obj.Value after PassByReference: {obj.Value}");
+            //}
+
+            //static void PassByValue(MyClass obj)
+            //{
+            //    obj.Value = 20;
+            //}
+
+            //static void PassByReference(ref MyClass obj)
+            //{
+            //    obj = new MyClass { Value = 30 };
+            //}
+
+
+
+            //class MyClass
+            //{
+            //public int Value { get; set; }
+            //}
+            #endregion
 
 
 
 
-        }
+
+
+
+
+         }
     }
 }
