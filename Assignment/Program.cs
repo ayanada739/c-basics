@@ -135,6 +135,29 @@
             //}
             #endregion
 
+            #region 06 Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+
+
+            static void Main()
+            {
+                int[] numbers = { 3, 5, 7, 2, 8 };
+                MinMaxArray(numbers, out int min, out int max);
+                Console.WriteLine($"Minimum: {min}, Maximum: {max}");
+            }
+
+            static void MinMaxArray(int[] array, out int min, out int max)
+            {
+                min = array[0];
+                max = array[0];
+                foreach (int num in array)
+                {
+                    if (num < min) min = num;
+                    if (num > max) max = num;
+                }
+            }
+            #endregion
+
+
 
 
 
