@@ -71,7 +71,7 @@
             #endregion
 
             #region 03 Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
-            
+
             //static void Main()
             //{
             //    Console.Write("Enter first number: ");
@@ -89,7 +89,30 @@
             //    int difference = a - b;
             //    return (sum, difference);
             // }
-        #endregion
+            #endregion
+
+            #region 04 Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+
+            //static void Main()
+            //{
+            //    Console.Write("Enter first number: ");
+            //    int num1 = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter second number: ");
+            //    int num2 = int.Parse(Console.ReadLine());
+
+            //    (int sum, int difference) = Calculate(num1, num2);
+            //    Console.WriteLine($"Sum: {sum}, Difference: {difference}");
+            //}
+
+            //static (int, int) Calculate(int a, int b)
+            //{
+            //    int sum = a + b;
+            //    int difference = a - b;
+            //    return (sum, difference);
+            //}
+
+
+            #endregion
 
 
 
@@ -101,6 +124,7 @@
 
 
 
-    }
+
+        }
     }
 }
