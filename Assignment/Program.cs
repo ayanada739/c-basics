@@ -35,7 +35,6 @@
             //    }
             #endregion
 
-
             #region 02 Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
 
             //Passing by Value: When a reference type parameter is passed by value, the reference (pointer) to the object is copied. The function can modify the object, but not the reference itself.
@@ -71,6 +70,26 @@
             //}
             #endregion
 
+            #region 03 Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+            
+            //static void Main()
+            //{
+            //    Console.Write("Enter first number: ");
+            //    int num1 = int.Parse(Console.ReadLine());
+            //    Console.Write("Enter second number: ");
+            //    int num2 = int.Parse(Console.ReadLine());
+
+            //    (int sum, int difference) = Calculate(num1, num2);
+            //    Console.WriteLine($"Sum: {sum}, Difference: {difference}");
+            //}
+
+            // static (int, int) Calculate(int a, int b)
+            // {
+            //    int sum = a + b;
+            //    int difference = a - b;
+            //    return (sum, difference);
+            // }
+        #endregion
 
 
 
@@ -78,6 +97,10 @@
 
 
 
-         }
+
+
+
+
+    }
     }
 }
